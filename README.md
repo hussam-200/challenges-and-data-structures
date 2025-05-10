@@ -12,7 +12,9 @@ This is the Array Reversal challenge.
 
 ![Reversed Array Challenge](./ArrayReversal.jpg)
 
-### Challenge b: Most Frequent Number Challenge
+### Challenge B: Most Frequent Number Challenge
+
+This is the Frequent Number challenge.
 
 ### Most Frequent Number Challenge
 
