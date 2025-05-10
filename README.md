@@ -5,5 +5,5 @@
 ### challenges A:Araay Reversal
 
 
-![Reversed Array Challenge](.\challenges-and-data-structures\flowchart_1.jpg)
+![Reversed Array Challenge](.\flowchart_1.jpg)
 
