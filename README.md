@@ -1,9 +1,15 @@
 # challenges-and-data-structures
 
-### whiteboard Images
+### Whiteboard Images
 
-### challenges A:Araay Reversal
+Here are some images related to the challenges.
 
+### Challenge A: Array Reversal
 
-![Reversed Array Challenge](.\flowchart_1.jpg)
+This is the Array Reversal challenge.
+
+#### Reversed Array Challenge
+
+![Reversed Array Challenge](./flowchart_1.jpg)
+
 
