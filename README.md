@@ -10,6 +10,6 @@ This is the Array Reversal challenge.
 
 #### Reversed Array Challenge
 
-![Reversed Array Challenge](./flowchart_1.jpg)
+![Reversed Array Challenge](./ArrayReversal.jpg)
 
 
