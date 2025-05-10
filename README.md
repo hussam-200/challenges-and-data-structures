@@ -4,4 +4,4 @@
 
 ### challenges A:Araay Reversal
 
-![Reversed Array Challenge](..\Flowchart (1).jpg)
+![Reversed Array Challenge](./Flowchart (1).jpg)
