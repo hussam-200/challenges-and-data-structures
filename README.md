@@ -13,3 +13,8 @@ This is the Array Reversal challenge.
 ![Reversed Array Challenge](./ArrayReversal.jpg)
 
 
+### Most Frequent Number Challenge
+
+![Most Frequent Number](./FrequentNumber.jpg)
+
+
