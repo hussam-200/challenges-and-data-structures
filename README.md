@@ -20,4 +20,9 @@ This is the Frequent Number challenge.
 
 ![Most Frequent Number](./FrequentNumber.jpg)
 
+### Challenge 2:Minimum Value
 
+The challenge is create a java script function call Minimum-Value that identifies and print the smallest number in a given array .
+The function should initialize an array with numeric values, use a loop to iterate through each element, and compare each value with a stored minimum.
+
+![Minimum value](./minimum.png)
