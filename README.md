@@ -31,4 +31,9 @@ The function should initialize an array with numeric values, use a loop to itera
 
 The ReverseCharacters(name) function in JavaScript takes a string as input and returns a new string with the characters in reverse order. It initializes an empty string revers
 
-![Minimum value](./Screenshot%202025-05-23%20171252.png)
+![Revers Characters](./reverchar.png)
+
+### logout :
+![logout](./result.png)
+
+
