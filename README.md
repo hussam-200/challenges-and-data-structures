@@ -33,7 +33,7 @@ The ReverseCharacters(name) function in JavaScript takes a string as input and r
 
 ![Revers Characters](./reverchar.png)
 
-### logout :
+### Outputs :
 ![logout](./result.png)
 
 
