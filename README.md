@@ -26,3 +26,14 @@ The challenge is create a java script function call Minimum-Value that identifie
 The function should initialize an array with numeric values, use a loop to iterate through each element, and compare each value with a stored minimum.
 
 ![Minimum value](./minimum.png)
+
+### challenge 03:Revers Characters
+
+The ReverseCharacters(name) function in JavaScript takes a string as input and returns a new string with the characters in reverse order. It initializes an empty string revers
+
+![Revers Characters](./reverchar.png)
+
+### logout :
+![logout](./result.png)
+
+
