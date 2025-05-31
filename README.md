@@ -41,8 +41,8 @@ The ReverseCharacters(name) function in JavaScript takes a string as input and r
 
 The RemoveMiddleValue function is designed to remove the middle element from a numeric array and return a new array without that middle value. It begins by defining an array, then calculates the middle index using the if statment method to ensure it works correctly with both even and odd lengths
 
-![Remove Middle Value](../removemiddlevalue.png)
+![Remove Middle Value](./removemiddlevalue.png)
 
 ### Output:
-![logout](../output.png)
+![logout](./output.png)
 
