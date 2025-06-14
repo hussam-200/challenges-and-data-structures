@@ -3,22 +3,22 @@
 ## white board
 
 ### whiteBoard-Add
-![whiteBoard-Add](#whiteboard-add);
+![whiteBoard-Add](#whiteboard-add.png);
 
 ### whiteBoard-Remove
-![whiteBoard-Remove](#whiteboard-remove);
+![whiteBoard-Remove](#whiteboard-remove.png);
 
 ### whiteBoard-Includes
-![whiteBoard-Includes](#whiteboard-includes);
+![whiteBoard-Includes](#whiteboard-includes.png);
 
 ### whiteBoard-InsertAt
-![whiteBoard-InsertAt](#whiteboard-insertat);
+![whiteBoard-InsertAt](#whiteboard-insertat.png);
 
 ### whiteBoard-Print
-![whiteBoard-Print](#whiteboard-print);
+![whiteBoard-Print](#whiteboard-print.png);
 
 ### Console-Logout
 ![Console-Logout](console-output2.png);
 
 ### Test-Output
-![Test-Output](#test-output);
+![Test-Output](#test-output.png);
