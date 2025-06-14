@@ -47,5 +47,5 @@ The RemoveMiddleValue function is designed to remove the middle element from a n
 ![logout](./output.png)
 
 ### Link README.md File:
-For more details, check out the [Linked List Implementation README](DataStructures/LinkedList/Linked-list-Implementation/README.md)
+For more details, check out the [Linked List Implementation README](https://github.com/hussam-200/challenges-and-data-structures/blob/Linked-List-Implementation/DataStructures/LinkedList/Linked-list-Implementation/README.md)
 
