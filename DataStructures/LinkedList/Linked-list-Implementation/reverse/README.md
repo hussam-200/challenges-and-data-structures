@@ -3,7 +3,7 @@
 ## white board
 
 ### whiteBoard-reverse
-![whiteBoard-Add](../docs/white-board-revers.png)
+![whiteBoard-Add](../docs/white-board-revers2.png)
 
 ### Console-Logout
 ![Console-Logout](../docs/console-output2.png)
