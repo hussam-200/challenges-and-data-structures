@@ -1,4 +1,4 @@
-const Linkedlist = require("./Linkedlist");
+const Linkedlist = require("../Linkedlist");
 
 
 test('adds 4 element in linkedlist', () => {
