@@ -1,7 +1,7 @@
 const Linkedlist = require("./Linkedlist");
 const reverseList = require("./reverse/reverse");
 const mergelist = require("./MergeSorted/MergeSorted")
-
+const rotateLinkedList=require("./rotateLinkedList/rotateLinkedList")
 const list = new Linkedlist();
 list.add(5);
 list.add(10);
@@ -53,3 +53,9 @@ const resultmerge = merge.mergeStoredList(list1, list3);
 console.log("result of merge listes:");
 
 resultmerge.printList();
+
+const rotate=new rotateLinkedList();
+const value=rotate.rotate(resultmerge,0);
+console.log("linkedlist after rotate :");
+
+value.printList();
