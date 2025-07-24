@@ -1,6 +1,7 @@
 const Stack = require("./Stack");
 const Queue=require("./Queue");
 const StackWithDeleteMiddle=require("../DeleteMiddleELement/DeleteMiddleElement")
+const MinimunStack=require("../MinStack/MinStack");
 
 const stack = new Stack();
 const queue=new Queue();
@@ -53,4 +54,32 @@ stackDelete.print();
 stackDelete.deleteMiddle();
 console.log("this stack after delete middle");
 stackDelete.print();
+
+const MinStack=new MinimunStack();
+
+MinStack.push(15);
+MinStack.push(7);
+MinStack.push(12);
+MinStack.push(3);
+console.log("stack list:");
+MinStack.print();
+
+
+console.log("Min Number in stack list:",MinStack.GetMin());
+
+console.log("pop number of stack list:",MinStack.pop())
+console.log("Min Number in stack list after poped :",MinStack.GetMin());
+console.log("Peek Number in stack list:",MinStack.peek());
+MinStack.push(2);
+MinStack.print();
+console.log("Min Number in stack list after push the new element (2):",MinStack.GetMin());
+
+
+console.log("check if the stack list empty:",MinStack.isEmpty());
+
+
+
+
+
+
 
