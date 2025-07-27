@@ -3,28 +3,54 @@ const Stack=require("../../MinStack/MinStack")
 test("new Min value of Empty stack list", () => {
     let MinStack = new Stack();
     
-    MinStack.GetMin();
-
-    expect(MinStack.top).toBe(null);
+   MinStack.push(1);
+   MinStack.push(2);
+   MinStack.push(3);
+   MinStack.push(4);
+   expect(MinStack.listStack).toEqual([1,2,3,4]);
    
 })
-test("new Min value when stack have one element list", () => {
+test("new Min value of Empty stack list", () => {
     let MinStack = new Stack();
-    MinStack.push(1)
-    MinStack.GetMin();
-
-    expect(MinStack.top.value).toBe(1);
+    
+   MinStack.push(1);
+   MinStack.push(2);
+   MinStack.push(3);
+   MinStack.push(4);
+   MinStack.pop();
+   expect(MinStack.listStack).toEqual([1,2,3]);
    
 })
-test("new Min value when stack have multi element list", () => {
+test("new Min value of Empty stack list", () => {
     let MinStack = new Stack();
-    MinStack.push(3);
-    MinStack.push(4);
-    MinStack.push(8);
-    MinStack.push(10);
-
-    const min=MinStack.GetMin();
-
-    expect(min).toBe(3);
+    
+   MinStack.push(1);
+   MinStack.push(2);
+   MinStack.push(3);
+   MinStack.push(4);
+   
+   expect(MinStack.top()).toBe(4);
+   
+})
+test("new Min value of Empty stack list", () => {
+    let MinStack = new Stack();
+    
+   MinStack.push(1);
+   MinStack.push(2);
+   MinStack.push(3);
+   MinStack.push(4);
+  
+   expect( MinStack.getMin()).toBe(1);
+   
+})
+test("new Min value of Empty stack list", () => {
+    let MinStack = new Stack();
+    
+   MinStack.push(1);
+   MinStack.push(2);
+   MinStack.push(3);
+   MinStack.push(4);
+   
+   expect(MinStack.isEmpty()).toBe(false);
    
 })

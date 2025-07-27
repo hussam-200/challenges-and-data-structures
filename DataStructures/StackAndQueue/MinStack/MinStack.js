@@ -1,29 +1,60 @@
-const Stack = require("../StackAndQueue-Implementation/Stack")
-class MinStack extends Stack {
+const stack = require("../StackAndQueue-Implementation/Stack")
+
+class MinStack {
     constructor() {
-        super();
+        this.listStack = [];
+        this.MinNum = [];
+        this.valueStack = 0;
+        this.MinValue = 0;
+
     }
 
-    GetMin() {
-        if(this.top === null){
+    push(value) {
+        this.listStack.push(value);
+        if (this.MinNum.length === 0 || this.getMin() >= value) {
+            this.MinNum.push(value)
+        }
+    }
+    pop() {
+        if (this.listStack.length === 0) {
             return null;
         }
-        if(this.top.next === null){
-            return this.top.value
-        }
+        const remove = this.listStack.pop();
 
-        let current = this.top;
-        let min = current.value;
-        while (current !== null) {
-            if (current.value < min) {
-                min = current.value;
-            }
-            current = current.next;
-
+        if (remove === this.MinNum[this.MinNum.length - 1]) {
+            this.MinNum.pop();
         }
-        return min;
+        return remove;
     }
+    top() {
+        if (this.listStack.length === 0) {
+            return null
+        }
+        return this.listStack[this.listStack.length - 1]
+    }
+    getMin() {
+        if (this.MinNum.length === 0) {
+            return null
+        }
 
+        return this.MinNum[this.MinNum.length - 1];
+    }
+    isEmpty(){
+        if(this.listStack.length === 0){
+            return true
+        }else{
+            return false
+        }
+    }
+    printStack() {
+        let result = "stack :"
 
+       for(let i=0 ; i < this.listStack.length ; i++){
+        result += this.listStack[i] + " -> ";
+       }
+
+        return result;
+    }
 }
+
 module.exports = MinStack;
