@@ -1,7 +1,9 @@
 const BinaryTree=require("./BinaryTree");
 const BinarySearchTree=require("./BinarySearchTree");
+const BST=require("./SecondMaxValue/SecoundMaxValue");
 const bTree=new BinaryTree(10);
 const BinaryST=new BinarySearchTree(12);
+const SecondMaxValue=new BST(10);
 
 // BinaryST.insert(10)
 // BinaryST.insert(20)
@@ -37,3 +39,18 @@ console.log(BinaryST.inPostTravisal(BinaryST.root));
 console.log(BinaryST.Contains(6));
 BinaryST.Remove(6)
 BinaryST.print()
+
+SecondMaxValue.add(20)
+SecondMaxValue.add(15)
+SecondMaxValue.add(9)
+SecondMaxValue.add(8)
+SecondMaxValue.add(25)
+SecondMaxValue.add(30)
+SecondMaxValue.add(28)
+SecondMaxValue.add(29)
+
+console.log("Second Max Value in Tree:");
+
+console.log(SecondMaxValue.SecondMaxValue());
+
+
