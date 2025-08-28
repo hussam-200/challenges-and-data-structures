@@ -2,10 +2,13 @@ const BinaryTree=require("./BinaryTree");
 const BinarySearchTree=require("./BinarySearchTree");
 const BST=require("./SecondMaxValue/SecoundMaxValue");
 const SecondMaxValueBT=require("./SecondMaxValue/SecondMaxValueBT")
+// const LeafSumBT= require("./LeafSum/LeafSum")
+
 const bTree=new BinaryTree(10);
 const BinaryST=new BinarySearchTree(12);
 const SecondMaxValue=new BST(10);
 const SMVBT=new SecondMaxValueBT(20);
+// const LeafSum=new LeafSumBT(9)
 
 // BinaryST.insert(10)
 // BinaryST.insert(20)
@@ -65,3 +68,20 @@ SMVBT.insert(12);
 console.log("Second Max Value in BinaryTree:");
 
 console.log(SMVBT.SecondMax(SMVBT.root));
+
+const LeafSumBT = require("./LeafSum/LeafSum");
+const TNode = require("./TNode");
+
+const LeafSum = new LeafSumBT(9);
+
+LeafSum.root.left = new TNode(8);
+LeafSum.root.right = new TNode(12);
+LeafSum.root.left.left = new TNode(3);
+LeafSum.root.left.right = new TNode(7);
+LeafSum.root.right.left = new TNode(17);
+LeafSum.root.right.right = new TNode(23);
+LeafSum.root.left.left.right = new TNode(4);
+LeafSum.print()
+console.log("Sum leaf node in Binary Tree: ");
+
+console.log( LeafSum.LeafSum());
